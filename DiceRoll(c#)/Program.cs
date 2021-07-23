@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 //made by TopperTom
 namespace TomsProgram
 {
@@ -12,7 +11,7 @@ namespace TomsProgram
             Console.ForegroundColor = ConsoleColor.Cyan;
 
             //Welcome
-            Console.WriteLine("Welcome to Dice Roll\nMade by TopperTom!\nTry roll a 6\n");
+            Console.WriteLine("Welcome to Dice Roll\nMade by Tom Harrison!\nTry roll a 6\n");
 
             Random numberGen = new Random();
             int roll = 0;
